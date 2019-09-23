@@ -1,2 +1,4 @@
 'use strict'
-console.log("羊驼就是草泥马");
+
+require('./layout.css');
+require('node_modules/font-awesome/css/font-awesome.min.css');
