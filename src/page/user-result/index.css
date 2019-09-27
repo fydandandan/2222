@@ -5,7 +5,7 @@
 	background: #FFFFFF;
 }
 .result-con{
-	/*display: none;*/
+	display: none;
 }
 .result-con .result-title{
 	color: red;
