@@ -1,11 +1,12 @@
 .nav-side{
 	float: left;
 	width: 130px;
+	/*background-color: green;*/
 	/*同时具有宽度和高度才不会闪*/
 	min-height: 100px;
-	/*background: green;*/
 }
 .nav-side .nav-item{
+	height: 25px;
 	line-height: 25px;
 	font-size: 13px;
 }
@@ -13,5 +14,5 @@
 	color: #888;
 }
 .nav-side .nav-item.active .link{
-	color: #c60023;
+	color: #C60023;
 }

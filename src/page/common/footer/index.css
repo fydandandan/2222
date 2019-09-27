@@ -1,6 +1,6 @@
 .footer{
 	padding-bottom: 10px;
-	
+	/*background-color: red;*/
 }
 .footer .links{
 	text-align: center;
@@ -12,6 +12,6 @@
 }
 .footer .copyright{
 	text-align: center;
-	color: #666;
+	color: #666666;
 	line-height: 30px;
 }
