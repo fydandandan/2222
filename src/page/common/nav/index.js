@@ -1,6 +1,6 @@
 'use strict'
 
-require('./index.css')
+require('./index.css');
 var _mm = require('util/mm.js');
 var _user = require('service/user-service.js');
 var _cart = require('service/cart-service.js');
@@ -23,12 +23,13 @@ var nav = {
 		})
 		//点击注册按钮
 		$('.js-register').click(function(){
-			windows.location.herf = './user-register.html'
+			window.location.href = './user-register.html'
 		})
 		//点击退出按钮(请求后端)
-		$('.js-logout').click(function(){
-			_user.logout();
-		})	
+		 $('.js-logout').click(function(){
+       	   _mm.logout();
+       })
+
 	},
 	//加载用户信息
 	loadUserInfo: function(){
