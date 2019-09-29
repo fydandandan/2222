@@ -29,8 +29,8 @@ var _mm = {
 				}
 			},
 			//返回404 503
-			error        : function(err){
-			   typeof param.error === 'function' && param.Error(err.statusText);	
+			error:function(err){
+			   typeof param.error === 'function' && param.error(err.statusText);	
 			}
 		});
 	},
@@ -67,7 +67,7 @@ var _mm = {
 		alert(msg || '哪里不对了!');
 	},
 	//字段的验证，支持非空，邮箱，手机的判断
-	validate: function(vlue,type){
+	validate: function(value,type){
 		var value = $.trim(value);
 		//非空验证
 		if ('require' ===type){
